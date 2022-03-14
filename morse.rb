@@ -19,7 +19,7 @@ end
 # puts decode_word("-... --- -..-") => BOX
 
 def decode_msg(msg)
-  msg.split('  ').map{ |word| decode_word(word) }.join(" ")
+  msg.split('  ').map { |word| decode_word(word) }.join(' ')
 end
 
 # puts decode_msg("  .-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...")
